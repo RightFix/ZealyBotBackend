@@ -18,3 +18,9 @@ rpds-py==0.30.0
 sqlparse==0.5.5
 uritemplate==4.2.0
 urllib3==2.6.3
+django>=5.0,<6.0
+djangorestframework   # if using DRF
+gunicorn              # Vercel uses this for WSGI
+whitenoise            # for static files (simple option)
+psycopg2-binary       # if using PostgreSQL
+python-dotenv         # optional for .env
