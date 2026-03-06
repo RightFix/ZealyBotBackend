@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', 'localhost', 'your-custom-domain.com']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', 'localhost', 'zealy-bot-backend.vercel.app']
 
 
 
